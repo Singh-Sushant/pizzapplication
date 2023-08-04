@@ -70,8 +70,8 @@ function printBasket(){
     basket.appendChild(li);
     
     const li2 = document.createElement('li');
-    li2.className = 'm-2';
-    // li2.style. list-style-type  'none';
+    li2.classList.add('m-2')
+    
     li2.innerText = `Rs. ${product.price}`;
     
     pricesCart.appendChild(li2);
